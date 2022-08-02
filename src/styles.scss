@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.list {
+  padding: 0;
+  margin: 0;
+
+  li {
+    background: #b5b5fb;
+    max-width: 200px;
+    padding: 5px;
+    margin-bottom: 2px;
+  }
+}

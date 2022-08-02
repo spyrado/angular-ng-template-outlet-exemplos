@@ -1,0 +1,6 @@
+<ng-content #customHeader></ng-content>
+<ul class="list">
+  <ng-container *ngFor="let item of list; let index = index;">
+    <ng-container *ngTemplateOutlet="htmlTemplate; context: { $implicit: item, index }"></ng-container>
+  </ng-container>
+</ul>

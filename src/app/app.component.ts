@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-ng-template-outlet';
+  list = [
+    {
+      id: 1,
+      nome: 'Nicolas'
+    },
+    {
+      id: 2,
+      nome: 'Talita'
+    },
+  ]
 }
